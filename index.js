@@ -1,16 +1,14 @@
-ReactDOM.render(
-<ul>whats up?
-  <li>sky</li>
-  <li>cieling</li>
-  <li>outer space</li>
-</ul>,
- document.getElementById('root'));
 
-// can also use the queryselector
-// ReactDOM.render(<h1>yo</h1>, document.querySelector("#root"))
+function Page() {
+    return (
+        <div>
+    <ul>Why Im doing this course
+      <li>React is a part of the web3 stack</li>
+      <li>React is a good skill for a fsDev</li>
+      <li>React is relevant to my classwork RN</li>
+    </ul>
+  </div>
+    )
+}
 
-// to do this in vanilla js it wold take many mor lines
-// const h1 = document.createElement("h1")
-// h1.textContent = "This is an imperative way to program"
-// h1.className = "header"
-// document.getElementById("root").append(h1)
+ReactDOM.render(<Page />, document.getElementById("root"))
