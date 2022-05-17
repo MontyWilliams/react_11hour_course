@@ -1,6 +1,24 @@
 {
+  "name": "react_11hour_course",
+  "version": "1.0.0",
+  "description": "This is just me going thru a pretty cool course",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MontyWilliams/react_11hour_course.git"
+  },
+  "author": "63MoneyT",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MontyWilliams/react_11hour_course/issues"
+  },
+  "homepage": "https://github.com/MontyWilliams/react_11hour_course#readme",
   "dependencies": {
     "react": "^18.1.0",
-    "react-dom": "^18.1.0"
+    "react-dom": "^18.1.0",
+    "save": "^2.5.0"
   }
 }
