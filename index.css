@@ -3,6 +3,12 @@ html, body {
   padding: 0;
 }
 
+.container {
+  background-color: bisque;
+  border: 2px solid black;
+  padding: 20px;
+}
+
 .nav-items {
   list-style: none;
   display: flex;
@@ -20,4 +26,13 @@ html, body {
 
 .logo {
   width: 40px;
+}
+
+.footer {
+  background-color: rgba(105, 105, 105, 0.219);
+}
+
+.header {
+  border: 5px solid black;
+  background-color: rgba(238, 130, 238, 0.11);
 }

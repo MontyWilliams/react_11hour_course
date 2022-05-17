@@ -17,8 +17,8 @@
   },
   "homepage": "https://github.com/MontyWilliams/react_11hour_course#readme",
   "dependencies": {
-    "react": "^18.1.0",
-    "react-dom": "^18.1.0",
+    "react": "17.0.2",
+    "react-dom": "17.0.2",
     "save": "^2.5.0"
   }
 }
