@@ -1,8 +1,13 @@
 function Header() {
   return (
     <header>
-        <nav>
-          <img src="./918dcx.png" width="40px" alt="" />
+        <nav className="nav-divs">
+          <img className="logo"  src="./918dcx.png" alt="" />
+          <ul className="nav-items">
+            <li>Pricing</li>
+            <li>About</li>
+            <li>Contact</li>
+          </ul>
         </nav>
       </header>
   )
@@ -28,7 +33,7 @@ function Page() {
     <div>
       <Header />
       <Main />
-          <Footer />
+      <Footer />
     </div>
     )
 }
