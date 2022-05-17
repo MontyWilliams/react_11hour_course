@@ -1,13 +1,16 @@
-
 function Page() {
     return (
-        <div>
-    <ul>Why Im doing this course
-      <li>React is a part of the web3 stack</li>
-      <li>React is a good skill for a fsDev</li>
-      <li>React is relevant to my classwork RN</li>
-    </ul>
-  </div>
+    <div>
+      <header>
+        <nav>
+          <img src="./918dcx.png" width="40px" alt="" />
+        </nav>
+      </header>
+          <h1>Why Im learning react? <br /> why the $$ <br /> Fool</h1>
+          <footer>
+          "© 2023 918dcx development. All rights reserved."
+          </footer>
+    </div>
     )
 }
 
